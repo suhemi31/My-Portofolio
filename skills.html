@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skill</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">PORTOFOLIO</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="card ">MY SKILLS</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <!-- CARD 1 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="project9.png">
+                        <div class="card-body">
+                            <h3>SQL</h3>
+                            <p>Mampu membuat query SQL (SELECT, INSERT, UPDATE, DELETE)</p>
+                            <a href="sql.html" class="btn-skill">
+                                View More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="project10.jpeg">
+                        <div class="card-body">
+                            <h3>Sistem ERP: Odoo</h3>
+                            <p>
+                                Mampu menggunakan Odoo Sales untuk mengelola data pelanggan,
+                                membuat quotation dan sales order, serta memantau proses penjualan.
+                            </p>
+                            <a href="odoo.html" class="btn-skill">
+                                View More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="project12.png">
+                        <div class="card-body">
+                            <h3>HTML</h3>
+                            <p>
+                                Memiliki kemampuan menggunakan HyperText Markup Language (HTML)
+                                untuk membangun struktur dasar halaman web.
+                            </p>
+                            <a href="html.html" class="btn-skill">
+                                View More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="project14.png">
+                        <div class="card-body">
+                            <h3>CSS</h3>
+                            <p>
+                                Mampu menggunakan Cascading Style Sheets (CSS) untuk mengatur
+                                tampilan dan layout halaman web agar lebih menarik dan responsif.
+                            </p>
+                            <a href="css.html" class="btn-skill">
+                                View More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="project16.jpeg">
+                        <div class="card-body">
+                            <h3>Microsoft Office</h3>
+                            <p>
+                                Memiliki kemampuan menggunakan Microsoft Excel, Word, dan PowerPoint untuk mendukung
+                                kebutuhan administrasi dan reporting.
+                            </p>
+                            <a href="microsoft.html" class="btn-skill">
+                                View More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Ahmad Suhemi | My portofolio
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+
+        var swiper = new Swiper(".mySwiper", {
+
+            slidesPerView: 3,
+            spaceBetween: 30,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            breakpoints: {
+
+                320: {
+                    slidesPerView: 1,
+                },
+
+                768: {
+                    slidesPerView: 2,
+                },
+
+                1024: {
+                    slidesPerView: 3,
+                }
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>
